@@ -1,0 +1,80 @@
+.nav
+{
+    background-color: blueviolet;
+}
+#login
+{
+    background-image: url(../img/background-2691002_960_720.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+}
+.login
+{
+    margin-top: 100px;   
+}
+.nav-item {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+
+}
+.nav-item:hover{
+    background: blue;
+    border-radius: 10px;
+    
+}
+#active
+{
+    background: red;
+    border-radius: 10px;
+
+}
+#main
+{
+	min-height: 600px;
+    background-image: url(../img/background-2691002_960_720.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+#order
+{
+	min-height: 600px;	
+}
+#index
+{
+	min-height: 600px;	
+}
+
+h2
+{
+    font-family: cursive;
+}
+#sell
+{
+    z-index: 1;
+    min-height: 600px;
+}
+.warning
+{
+    color: red;
+    font-size: 22px;
+}
+.success
+{
+    color: green;
+    font-size: 22px;
+}
+#align
+{
+        margin-top: 20px;
+}
+#footer {
+    overflow: hidden;
+    background-color: blueviolet;
+}

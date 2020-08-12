@@ -1,0 +1,126 @@
+.nav-item {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+
+}
+
+.carousel-item {}
+
+#main {
+    background-image: url("img/back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+#semester {
+    background-image: url("img/back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+#error{
+    background-image: url("img/back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#dmca
+{
+ 	background-image: url("img/back.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 600px;	
+}
+#about {
+    background-image: url(img/3.jpg);
+}
+
+#image {
+    background: #000 url(img/background-bright-close-up-environment-413195.jpg);
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    position: relative;
+}
+
+.dark-overlay {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .7;
+    position: absolute;
+}
+
+h2 {
+    overflow: hidden;
+    font-family: cursive;
+    font-size: 60px;
+    z-index: 1;
+
+}
+#sell {
+    position: relative;
+    height: 800px;
+    background: #000 url(img/back.jpg);
+}
+#order{
+    position: relative;
+    height: 700px;
+    background: #000 url(img/back.jpg);
+}
+
+.color-overlay {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .7;
+    position: absolute;
+}
+.warning
+{
+    color: red;
+    font-size: 22px;
+}
+.success
+{
+    color: green;
+    font-size: 22px;
+}
+.image
+{
+    height: 250px;
+    width: 349px;
+    
+}
+#footer {
+    overflow: hidden;
+    background: #343a40;
+}
+
+.fa {
+    font-size: 50px;
+}
+
+@media(max-width:700px) {
+    .nav-item {
+        padding-left: 0rem;
+
+    }
+
+    #info,
+    .img {
+        text-align: center;
+    }
+}

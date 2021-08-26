@@ -1,4 +1,4 @@
-# Book_Exchange
+# Book Exchange
 This site was created for exchanging book in my department using oop php and mysql database
 <h2>Features</h2>
 <li>Admin login and logout</li>
